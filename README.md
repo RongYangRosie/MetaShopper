@@ -4,7 +4,7 @@ Based on Option 4b (MetaShopper), I crawled features such as images, names, link
 products from popular shopping websites like Amazon and eBay. As required, I read URLs and fields from the
 configuration file during the process and provided a user interface for searching products. The crawler returns
 a list of products ranked by price, and I used Flask to display the results.
-###Brief Guide
+### Brief Guide
 1. Build a Python environment
 $ python3 -m venv myenv
 $ source myenv/bin/activate
@@ -14,7 +14,7 @@ $ pip install -r dependecy.txt
 $ python app.py
 4. Open web browser and go to http://127.0.0.1:5000/
 5. Start to search a product
-###Achievement
+### Achievement
 1. Implemented two crawlers that can retrieve product information including image, name, link, price, and
 rating.
 2. Achieved a user-friendly interface that enables users to query and compare product prices and ratings
