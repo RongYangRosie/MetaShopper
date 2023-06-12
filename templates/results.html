@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Results</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    {% if products %}
+      <h1>Results</h1>
+      <table>
+        <tr>
+          <th>Image</th>
+          <th>Product Information</th>
+          <th>Rating</th>
+          <th>Price($)</th>
+          <th>Website_Source</th>
+        </tr> 
+        {% for product in products %}
+      
+          <tr>
+            <td><img src="{{  product['product_imgSrc'] }}"></td>
+            <td><a href="{{  product['product_link'] }}" target="_blank">{{  product['product_name'] }}</a></td>
+            <td>{{  product['product_rating'] }}</td>
+            <td>{{  product['product_price'] }}</td>
+            <td>{{  product['product_source'] }}</td>
+          </tr>
+        {% endfor %}
+      </table>
+      {% else %}
+        <p>No products found.</p>
+      {% endif %}
+  </body>
+</html>
+

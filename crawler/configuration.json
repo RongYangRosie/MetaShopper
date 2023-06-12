@@ -1,0 +1,27 @@
+{
+    "stores": [
+        {
+            "name": "eBay",
+            "url": "https://www.ebay.com/sch/i.html",
+            "query_params": {
+              "_nkw": "{}"
+            },
+            "product_selector": "li.s-item",
+            "name_selector": "div.s-item__title",
+            "link_selector": "a.s-item__link",
+            "price_selector": "span.s-item__price"
+          },
+        {
+         "name": "Amazon",
+         "url": "https://www.amazon.com/s",
+         "query_params": {
+           "k": "{}"
+         },
+       "product_selector": ".a-section.a-spacing-base",
+       "tag_selector": "a.a-link-normal.s-no-outline ",
+         "name_selector": "span.a-size-base-plus.a-color-base.a-text-normal",
+         "link_selector": "a.a-link-normal.s-no-outline",
+         "price_selector": "span.a-price span.a-offscreen"
+       }
+     ]
+}

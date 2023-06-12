@@ -1,0 +1,34 @@
+.table {
+    width: 1500px;
+    border-collapse: collapse;
+  }
+  th {
+    background-color: #dddddd;
+    text-align: left;
+    padding: 8px;
+    width: 200px;
+  }
+  td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width: 80px;
+  }
+  .image-col {
+    width: 50px;
+  }
+  .name-col {
+    width: 40px;
+  }
+  .link-col {
+    width: 50px;
+  }
+  .rating-col {
+    width: 30px;
+  }
+  .price-col {
+    width: 30px;
+  }
+  .source-col {
+    width: 30px;
+  }
