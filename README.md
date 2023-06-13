@@ -6,12 +6,18 @@ configuration file during the process and provided a user interface for searchin
 a list of products ranked by price, and I used Flask to display the results.
 ### Brief Guide
 1. Build a Python environment
+```shell
 $ python3 -m venv myenv
 $ source myenv/bin/activate
+```
 2. Install dependencies
+```shell
 $ pip install -r dependecy.txt
+```
 3. Run the app file
+```shell
 $ python app.py
+```
 4. Open web browser and go to http://127.0.0.1:5000/
 5. Start to search a product
 ### Achievement
